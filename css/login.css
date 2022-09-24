@@ -25,33 +25,15 @@ html, body{
 }
 
 .img-login{
-    width: 70%;
+    width: 50%;
     position: absolute;
     height: 70%;
 }
 
-.sob-img-up::after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 15px;
-    bottom: -1px;
-    background: url(../img/sob-img-up.png);
-}
-
-.sob-img-down::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 15px;
-    background: url(../img/sob-img-down.png);
-    top: -1px;
-}
-
 .frm-login{
     background-color: #308c3957;
-    width: 35%;
-    height: 56%;
+    width: 44%;
+    height: 75%;
     border-radius: 56px;
     border: 3px solid;
     border-color: white;
@@ -89,7 +71,7 @@ html, body{
 }
 
 .fld-txt{
-    width: 60%;
+    width: 77%;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
