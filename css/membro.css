@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* MEMBROS */
+
+.mbr{
+    height: inherit;
+}
+
+.img-membro{
+    width: 100%;
+    position: absolute;
+    height: inherit;
+}
+
+.bgr-mbr{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    background: rgb(51 67 54 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sob-img-up::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    bottom: -1px;
+    background: url(../img/sob-img-up.png);
+}
+
+.sob-img-down::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    background: url(../img/sob-img-down.png);
+    top: -1px;
+}
+
+.sct-title{
+   text-align: center;
+}
+
+.mbr-rtn{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+

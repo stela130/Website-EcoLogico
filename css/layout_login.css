@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* LOGIN */
+
+.login{
+    width: 100%;
+    height: inherit;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-login{
+    width: 100%;
+    max-height: 100%;
+    display: none;
+
+}
+
+.frm-login{
+    background-color: red;
+    height: 60%;
+    width: 40%;
+
+}
+
+.frm-title{
+    height: 20%;
+    background-color: white;
+}
+
+.frm-fld.acesso{
+    height: 40%;
+    background-color: blue;
+}
+
+.fld-usu{
+    height: 50%;
+    background-color: yellow;    
+}
+
+.fld-pwd{
+    height: 50%;
+    background-color: red;
+}
+
+.frm-btn.acesso{
+    height: 40%;
+    background-color: #ff9400;
+}
+
+.btn-cfm{
+    height: 50%;
+    background-color: purple
+
+}
+
+.btn-ccl{
+    height: 50%;
+
+}

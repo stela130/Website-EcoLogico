@@ -1,0 +1,140 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* LOGIN */
+
+.login{
+    height: inherit;
+}
+
+.frm-bgd{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    background: rgb(51 67 54 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-login{
+    width: 100%;
+    position: absolute;
+    height: inherit;
+}
+
+.sob-img-up::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    bottom: -1px;
+    background: url(../img/sob-img-up.png);
+}
+
+.sob-img-down::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    background: url(../img/sob-img-down.png);
+    top: -1px;
+}
+
+.frm-login{
+    background-color: #308c3957;
+    width: 35%;
+    height: 56%;
+    border-radius: 56px;
+    border: 3px solid;
+    border-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frm-title{
+    height: 14%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.frm-fld.acesso{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.inf-ico{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.fld-txt{
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.frm-btn.acesso{
+    height: 14%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    width: 40%;
+    padding: 9px 20px;
+    border-radius: 16px;
+    border: none;
+    font-size: 32px;
+    background-color: #ffffff;
+}
+
+.btn:hover, .fld-txt:hover{
+    background-color: #ff9200;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fld-txt:focus{
+    background-color: #ffffff;
+    color: black;
+}
+
+.inf-ico:hover{
+    color: #ff9200;
+
+}
+
+.fld-acs.usr:hover .inf-ico.usr{
+    color: #ff9200;
+}
+
+.fld-acs.pwd:hover .inf-ico.pwd{
+    color: #ff9200;
+}
+
+
