@@ -6,7 +6,7 @@ html, body{
     font-family: sans-serif;
 }
 
-/* NAV */
+/*************************** NAV ****************************/
 
 .nav-menu-banner-index{
     height: 60%;
@@ -23,7 +23,7 @@ html, body{
 .img-nav{
     width: 40%;
     height: 80%;
-    padding: 68px;
+    padding-top: 68px;
 }
 
 .sob-img-nav::after {
@@ -162,13 +162,95 @@ html, body{
     text-align: center;
 }
 
-/* SECTION */
 
-.cont-section{
-    height: 100%;
+/*************************** SECTION ****************************/
+
+.frm-txt.cad{
+    margin-left: 10%;
+    letter-spacing: 4px;
+    font-size: 35px;
 }
 
-/* FOOTER */
+.inf-ico-cad{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #317f54;
+}
+
+.fild-ico-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fld-txt{
+    width: 40%;
+    margin: 1%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 25px;
+    color: #317f54;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.frm-btn.acesso{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 15%;
+    margin: 1%;
+    padding: 9px 20px;
+    border-radius: 16px;
+    border: none;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #317f54;
+}
+
+.btn:hover, .fld-txt:hover{
+    background-color: #ff9200;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fld-txt:focus{
+    background-color: #ffffff;
+    color: black;
+}
+
+.inf-ico:hover{
+    color: #ff9200;
+
+}
+
+.fild-ico-txt.cad:hover .inf-ico-cad.usr{
+    color: #ff9200;
+}
+.fild-ico-txt.end:hover .inf-ico-cad.end{
+    color: #ff9200;
+}
+.fild-ico-txt.tel:hover .inf-ico-cad.tel{
+    color: #ff9200;
+}
+.fild-ico-txt.mail:hover .inf-ico-cad.mail{
+    color: #ff9200;
+}
+.fild-ico-txt.lgn:hover .inf-ico-cad.lgn{
+    color: #ff9200;
+}
+.fild-ico-txt.pwd:hover .inf-ico-cad.pwd{
+    color: #ff9200;
+}
+
+
+/*************************** FOOTER ****************************/
 
 .footer-banner{
     height: 30%;
