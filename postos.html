@@ -16,11 +16,12 @@
 <body>
 
 <!-- INI NAV -->
-	<div class="nav-menu-banner">
+	<div class="nav-menu-banner-index">
 		<div class="menu-banner sob-img-nav">
 			<div class="menu-list">
 				<div class="logo-link">
-					<a href="#" class="menu-item logo">ECO RECICLAGEM</a>
+					<img class="img-link" src="img/logo.png" alt="Image">
+					<a href="#" class="menu-item logo">ECO?LÓGICO!</a>
 				</div>
 				<div class="menu-link">
 					<a href="index.html" class="menu-item home">Home</a>
@@ -34,7 +35,7 @@
 								<a href="#" class="drop-item vidro">Vidro</a>
 							</div>
 						</div>
-					<a href="preco.html" class="menu-item preco">Preços</a>
+					<a href="preco.html" class="menu-item precos">Preços</a>
 					<a href="postos.html" class="menu-item postos">Postos</a>
 						<div class="menu-item-dropdown login">
 							<a href="#" class="menu-item Login">Login</a>
@@ -45,64 +46,55 @@
 						</div>
 				</div>
 			</div>
-			<div class="txt-banner">
-				<h1 class="txt-l2">POSTOS ECO PONTO</h1>
+			<div class="txt-banner-index">
+				<h1 class="txt-l2">POSTOS DE COLETA</h1>
 			</div>
 		</div>
-		<img class="img-nav" src="img/footer-1.png" alt="Image">
+		<img class="img-nav" src="img/nav-1.png" alt="Image">
 	</div>
 <!-- FIM NAV -->
 
 <!-- INI SECTION -->
 	<!-- POSTOS INI -->
 	<div class="cont-section pst">
-		<div class="sct-pst">
-			<div class="pst-title">
-				<h2>Localize aqui os postos de coleta mais próximo de você.</h2>
+		<div class="pst-title">
+			<h2>Localize aqui os postos de coleta mais próximo de você.</h2>
+		</div>
+
+		<div class="pst-lst-map">
+			<div class="lst-pst">
+				<div class="lst-title">
+					<h3>Postos:</h3>
+				</div>
+				<div class="lst-txt-pst">
+					<input type="checkbox" name="opcao" id="uir" class="lst-cb uir" checked>
+      				<label for="uir">Uirapuru</label><br>
+
+					<input type="checkbox" name="opcao" id="apa" class="lst-cb apa">
+      				<label for="apa">Aparas Carvalho</label><br>
+
+      				<input type="checkbox" name="opcao" id="jeq" class="lst-cb jeq">
+      				<label for="jeq">Jequitibá</label><br>
+				</div>
 			</div>
-			<div class="pst-lst-map">
-				<div class="lst-pst">
-					<div class="lst-title">
-						<h3>Pontos Disponíveis:</h3>
-					</div>
-					<div class="lst-txt-pst">
-						<ol type="1">
-						<li>Eco Irapuru</li>
-						<li>Eco João 23</li>
-						<li>Eco Jequitibá</li>
-					</div>
-				</div>
-				<div class="pst-map">
-				
-				</div>
+			<div class="pst-map">
+			<!--Uirapuru-->
+				<iframe class="map-pst1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0937503141317!2d-46.792660685041966!3d-23.600970484663172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5501c461b287%3A0x1421a9f458550015!2sETEC%20Uirapuru!5e0!3m2!1spt-BR!2sbr!4v1664132490074!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			<!--Aparas Carvalho<-->
+				<iframe class="map-pst2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3586864224285!2d-46.798710549015226!3d-23.59495089963053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55055ee1b485%3A0xf46d9f560250ca0f!2sAparas%20Carvalho!5e0!3m2!1spt-BR!2sbr!4v1664134088206!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			<!--Jequitibá-->
+				<iframe class="map-pst3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0898259917985!2d-46.812855639372586!3d-23.605775777061893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce552590de2013%3A0x8d8bda490ff06acc!2sParque%20Jequitib%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1664133096619!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 			</div>
 		</div>
-<!-- MAPA
-		<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-
-		<script>
-			(function () {
-        var setting = {"height":583,"width":706,"zoom":17,"queryString":"ETEC Uirapuru - Rua Nazir Miguel - Jardim Paulo VI, São Paulo - SP, Brasil","place_id":"ChIJh7JhxAFVzpQRFQBVWPSpIRQ","satellite":false,"centerCoord":[-23.601143656938323,-46.79035964999999],"cid":"0x1421a9f458550015","lang":"pt","cityUrl":"/brazil/sao-paulo","cityAnchorText":"","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"812388"};
-        var d = document;
-        var s = d.createElement('script');
-        s.src = 'https://1map.com/js/script-for-user.js?embed_id=812388';
-        s.async = true;
-        s.onload = function (e) {
-          window.OneMap.initMap(setting)
-        };
-        var to = d.getElementsByTagName('script')[0];
-        to.parentNode.insertBefore(s, to);
-      })();</script></div>-->
-
-
 	</div>
 	<!-- POSTOS Fim-->
 <!-- FIM SECTION -->
 
 <!-- INI FOOTER -->
 	<div class="footer-banner">
-	<img class="img-footer" src="img/footer-1.png" alt="Image">
 		<div class ="ftr-bnr-inf sob-img-footer">
 			<div class="ftr-inf">
 				<div class="list-inf logo">
@@ -149,6 +141,5 @@
 		</div>
 	</div>
 <!-- FIM FOOTER -->
-
 </body>
 </html>
