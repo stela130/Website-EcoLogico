@@ -9,17 +9,21 @@ html, body{
 /*************************** NAV ***************************/
 
 .nav-menu-banner-index{
-    height: 100%;
+    height: 60%;
     background-color: #e6ffd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .nav-menu-banner{
     height: 60%;
+    background-color: #e6ffd7;
 }
 
 .img-nav{
-    width: 60%;
-    max-height: 80%;
-    margin: 8% 20%;
+    width: 40%;
+    height: 80%;
+    padding-top: 68px;
 }
 
 .sob-img-nav::after {
@@ -42,7 +46,7 @@ html, body{
     align-items: center;
     letter-spacing: 0.2rem;
     display: flex;
-    height: 16%;
+    height: 30%;
 }
 
 .logo-link{
@@ -130,35 +134,26 @@ html, body{
 .txt-banner-index{
     display: flex;
     align-items: center;
-    height: 84%;
+    height: 70%;
     justify-content: center;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .txt-banner{
     display: flex;
     align-items: center;
+    height: 70%;
     justify-content: center;
-    color: #fff;
-    height: 84%;
-}
-
-.txt-l1{
-    letter-spacing: 0.6rem;
+    flex-direction: column;
 }
 
 .txt-l2{
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 20px;
     text-align: center;
-    background-color: #000000;
     border-radius: 10px;
-    color: #bdff44;
+    color: #000000;
     padding: 10px;
-}
-
-.txt-l3{
-    letter-spacing: 0.6rem;
 }
 
 .txt-title{
@@ -173,6 +168,7 @@ html, body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 4%;
 }
 
 .cont-img{
@@ -186,8 +182,26 @@ html, body{
     width: 60%;
 }
 
-.txt-rec{
-    width: 60%;
+.cont-grp-ttl-txt{
+ width: 60%;
+
+}
+
+.cont-ttl{
+    padding: 0% 4%;
+}
+
+.txt-l2{
+    font-size: 60px;
+    letter-spacing: 20px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #bdff44;
+    padding: 10px;
+}
+
+.cont-txt{
     margin: 0% 4%;
     font-size: 20px;
     text-align: justify;
