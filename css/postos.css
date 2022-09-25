@@ -6,18 +6,24 @@ html, body{
     font-family: sans-serif;
 }
 
-/* NAV */
+/*************************** NAV ****************************/
 
 .nav-menu-banner-index{
-    height: 100%;
+    height: 60%;
+    background-color: #e6ffd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .nav-menu-banner{
     height: 60%;
+    background-color: #e6ffd7;
 }
 
 .img-nav{
-    width: 100%; 
-    max-height: 100%;
+    width: 40%;
+    height: 80%;
+    padding-top: 68px;
 }
 
 .sob-img-nav::after {
@@ -33,7 +39,6 @@ html, body{
     position: absolute;
     width: 100%;
     height: inherit;
-    background: rgb(51 67 54 / 70%);
 }
 
 .menu-list{
@@ -41,12 +46,20 @@ html, body{
     align-items: center;
     letter-spacing: 0.2rem;
     display: flex;
-    height: 16%;
+    height: 30%;
 }
 
 .logo-link{
     width: 28%;
-    font-size: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-link{
+    width: 25%;    
 }
 
 .menu-link{
@@ -61,15 +74,19 @@ html, body{
     padding-left: 14px;
     padding-right: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #317f54;
     font-weight: bold;
 }
 
 .item-dropdown{
     position: absolute;
     background-color: #fff;
-    width: 13%;
     margin-left: 1%;
+    width: 13%;
+}
+
+.item-dropdown.login{
+    width: 10%;
 }
 
 .drop-item{
@@ -117,45 +134,102 @@ html, body{
 .txt-banner-index{
     display: flex;
     align-items: center;
-    color: #fff;
-    height: 84%;
+    height: 70%;
     justify-content: center;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .txt-banner{
     display: flex;
     align-items: center;
+    height: 70%;
     justify-content: center;
-    color: #fff;
-    height: 84%;
+    flex-direction: column;
 }
 
-.txt-l1{
-    color: #ff9200;
-    letter-spacing: 0.6rem;
+.txt-l2{
+    font-size: 70px;
+    letter-spacing: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
 }
 
-.txt-l2, .txt-title{
+.txt-title{
     font-size: 60px;
     letter-spacing: 20px;
     text-align: center;
 }
 
-.txt-l3{
-    letter-spacing: 0.6rem;
+
+
+/*************************** SECTION ****************************/
+
+.pst-title{
+    text-align: center;
+    letter-spacing: 4px;
 }
 
-/* FOOTER */
+.pst-lst-map{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lst-pst{
+    width: 20%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.lst-title{
+    font-size: 26px;
+}
+
+.lst-cb{
+    -webkit-transform: scale(2);
+    margin: 16px;
+}
+
+.lst-txt-pst{
+    font-size: 20px;
+}
+
+.map-txt{
+   font-size: 21px;
+    font-weight: bold;
+
+}
+
+.pst-map{
+    background-color: green;
+    width: 76%;
+    height: 400px;
+}
+
+.map-pst1{
+    display: block;
+}
+
+
+.map-pst2{
+    display: none;
+}
+
+
+.map-pst3{
+    display: none;
+}
+
+
+
+
+/*************************** FOOTER ****************************/
 
 .footer-banner{
     height: 30%;
-}
-
-.img-footer{
-    width: 100%;
-    position: absolute;
-    height: inherit;
 }
 
 .sob-img-footer::before {
@@ -167,11 +241,11 @@ html, body{
 }
 
 .ftr-bnr-inf{
-    background: rgb(51 67 54 / 70%);
     width: 100%;
     height: inherit;
     position: absolute;
-    color: white;
+    color: #317f54;
+    background-color: #e6ffd7;
 }
 
 .ftr-inf{
@@ -211,7 +285,7 @@ html, body{
 }
 
 .link-red{
-   color: white;
+    color: #317f54;
 }
 
 .footer-corp{
@@ -221,48 +295,3 @@ html, body{
 .corp-txt{
     margin: auto;
 }
-
-/* SECTION */
-
-.cont-section{
-    height: 100%;
-}
-
-.sct-pst{
-    background-color: blue;
-    height: inherit;
-}
-
-.pst-title{
-    text-align: center;
-    letter-spacing: 4px;
-}
-
-.pst-lst-map{
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.lst-pst{
-    background-color: red;
-    width: 20%;
-    letter-spacing: 2px;
-}
-
-.lst-title{
-    font-size: 26px;
-}
-
-li{
-    font-size: 23px;
-    margin: 14px;
-}
-
-.pst-map{
-    background-color: green;
-    width: 76%;
-}
-
-
