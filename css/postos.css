@@ -194,12 +194,12 @@ html, body{
 }
 
 .lst-txt-pst{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .map-txt{
    font-size: 21px;
-    font-weight: bold;
+   font-weight: bold;
 
 }
 
@@ -223,7 +223,23 @@ html, body{
     display: none;
 }
 
+.list-lbl.uir:hover{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
 
+.list-lbl.apa:hover{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
+
+.list-lbl.jeq:hover{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
 
 
 /*************************** FOOTER ****************************/
