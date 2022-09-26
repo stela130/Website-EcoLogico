@@ -213,11 +213,9 @@ html, body{
     display: block;
 }
 
-
 .map-pst2{
     display: none;
 }
-
 
 .map-pst3{
     display: none;
@@ -241,6 +239,23 @@ html, body{
     color: #ff9200;
 }
 
+.lst-cb.uir:checked + .list-lbl.uir{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
+
+.lst-cb.apa:checked + .list-lbl.apa{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
+
+.lst-cb.jeq:checked + .list-lbl.jeq{
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff9200;
+}
 
 /*************************** FOOTER ****************************/
 
