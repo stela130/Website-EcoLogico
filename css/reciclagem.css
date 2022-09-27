@@ -202,27 +202,27 @@ html, body{
     color: white;
 }
 
-.title-txt.metal{
+.title-txt.metal, .btn-rtn-ini.metal{
     background-color: #ffc200;
 }
 
-.title-txt.papel{
+.title-txt.papel, .btn-rtn-ini.papel{
     background-color: #0030d5;
 }
 
-.title-txt.plastico{
+.title-txt.plastico, .btn-rtn-ini.plastico{
     background-color: #de0400;
 }
 
-.title-txt.vidro{
+.title-txt.vidro, .btn-rtn-ini.vidro{
     background-color: #008a29;
 }
 
-.title-txt.organico{
+.title-txt.organico, .btn-rtn-ini.organico{
     background-color: #72533c;
 }
 
-.title-txt.comum{
+.title-txt.comum, .btn-rtn-ini.comum{
     background-color: #535455;
 }
 
@@ -248,6 +248,28 @@ ul.rec-list.papel, ul.rec-list.plastico {
 
 li{
     height: 36px;
+}
+
+.btn-rtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4%;
+}
+
+.btn-rtn-ini{
+    width: 10%;
+    padding: 9px 20px;
+    border-radius: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn-rtn-ini.metal:hover, .btn-rtn-ini.metal:hover, .btn-rtn-ini.papel:hover, .btn-rtn-ini.plastico:hover, .btn-rtn-ini.vidro:hover, .btn-rtn-ini.organico:hover, .btn-rtn-ini.comum:hover{
+    background-color: #317f54;
+    color: white;
+    font-weight: bold;
 }
 
 /*************************** FOOTER ****************************/
