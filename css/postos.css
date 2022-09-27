@@ -209,15 +209,15 @@ html, body{
     height: 400px;
 }
 
-.map-pst1{
+.map-pst.uir{
+    display: block;
+}
+
+.map-pst.apa{
     display: none;
 }
 
-.map-pst2{
-    display: none;
-}
-
-.map-pst3{
+.map-pst.jeq{
     display: none;
 }
 
