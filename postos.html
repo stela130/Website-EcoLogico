@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Eco Reciclagem</title>
 	<link rel="stylesheet" href="css/postos.css">
-	
+	<script type="text/javascript" src="js/script.js"></script>
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
@@ -70,25 +70,25 @@
 					<h3>Postos:</h3>
 				</div>
 				<div class="lst-txt-pst">
-					<input type="radio" name="opcao" id="uir" class="lst-cb uir" checked>
+					<input type="radio" name="opcao" class="lst-cb uir" id="uir" onchange="mostraMap('mp-uir')">
       				<label for="uir" class="list-lbl uir">Uirapuru</label><br>
 
-					<input type="radio" name="opcao" id="apa" class="lst-cb apa">
+					<input type="radio" name="opcao" class="lst-cb apa" id="apa" onchange="mostraMap('mp-apa')">
       				<label for="apa" class="list-lbl apa">Aparas Carvalho</label><br>
 
-      				<input type="radio" name="opcao" id="jeq" class="lst-cb jeq">
+      				<input type="radio" name="opcao" class="lst-cb jeq" id="jeq" onchange="mostraMap('mp-jeq')">
       				<label for="jeq" class="list-lbl jeq">Jequitibá</label><br>
 				</div>
 			</div>
 			<div class="pst-map">
 			<!--Uirapuru-->
-				<iframe class="map-pst1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0937503141317!2d-46.792660685041966!3d-23.600970484663172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5501c461b287%3A0x1421a9f458550015!2sETEC%20Uirapuru!5e0!3m2!1spt-BR!2sbr!4v1664132490074!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe class="map-pst uir" id="mp-uir" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0937503141317!2d-46.792660685041966!3d-23.600970484663172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5501c461b287%3A0x1421a9f458550015!2sETEC%20Uirapuru!5e0!3m2!1spt-BR!2sbr!4v1664132490074!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			<!--Aparas Carvalho<-->
-				<iframe class="map-pst2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3586864224285!2d-46.798710549015226!3d-23.59495089963053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55055ee1b485%3A0xf46d9f560250ca0f!2sAparas%20Carvalho!5e0!3m2!1spt-BR!2sbr!4v1664134088206!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe class="map-pst apa" id="mp-apa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.3586864224285!2d-46.798710549015226!3d-23.59495089963053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55055ee1b485%3A0xf46d9f560250ca0f!2sAparas%20Carvalho!5e0!3m2!1spt-BR!2sbr!4v1664134088206!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			<!--Jequitibá-->
-				<iframe class="map-pst3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0898259917985!2d-46.812855639372586!3d-23.605775777061893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce552590de2013%3A0x8d8bda490ff06acc!2sParque%20Jequitib%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1664133096619!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe class="map-pst jeq"  id="mp-jeq" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0898259917985!2d-46.812855639372586!3d-23.605775777061893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce552590de2013%3A0x8d8bda490ff06acc!2sParque%20Jequitib%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1664133096619!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			</div>
 		</div>
