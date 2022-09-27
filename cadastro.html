@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Eco Reciclagem</title>
 	<link rel="stylesheet" href="css/cadastro.css">
+	<script type="text/javascript" src="js/script.js"></script>
 	
 	<!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
@@ -60,35 +61,35 @@
 	<div class="cont-section cad">
 		<div class="frm-cad cad">
 			<h2 class="frm-txt cad">Prencha os campos abaixo:</h2>
-			<div class="frm-fields-cad cad">
+			<form class="frm-fields-cad cad" id="frm-cad">
 				<div class="fild-ico-txt cad">
-					<i class="fa-solid fa-user inf-ico-cad usr"></i>
-					<input class="fld-txt name" type="text" name="input" value="Nome Completo" onfocus="this.value='';">
+					<i class="fa-solid fa-user inf-ico-cad usr" id="ico-nm"></i>
+					<input class="fld-txt nm" id="txt-nm" type="text" name="input" placeholder="Nome Completo" onfocus="this.placeholder='';">
 				</div>
 				<div class="fild-ico-txt end">
-					<i class="fa-solid fa-location-dot inf-ico-cad end"></i>
-					<input class="fld-txt end" type="text" name="input" value="Endereço" onfocus="this.value='';">
+					<i class="fa-solid fa-location-dot inf-ico-cad end" id="ico-end"></i>
+					<input class="fld-txt end" id="txt-end" type="text" name="input" placeholder="Endereço" onfocus="this.placeholder='';">
                 </div>
 				<div class="fild-ico-txt tel">
-					<i class="fa-solid fa-phone inf-ico-cad tel"></i>
-					<input class="fld-txt tel" type="text" name="input" value="Telefone" onfocus="this.value='';">
+					<i class="fa-solid fa-phone inf-ico-cad tel" id="ico-tel"></i>
+					<input class="fld-txt tel" id="txt-tel" type="text" name="input" placeholder="Telefone" onfocus="this.placeholder='';">
                 </div>
-				<div class="fild-ico-txt mail">				
-					<i class="fa-solid fa-at inf-ico-cad mail"></i>
-					<input class="fld-txt mail" type="text" name="input" value="E-mail" onfocus="this.value='';">
+				<div class="fild-ico-txt mail">
+					<i class="fa-solid fa-at inf-ico-cad mail" id="ico-mail"></i>
+					<input class="fld-txt mail" id="txt-mail" type="text" name="input" placeholder="E-mail" onfocus="this.placeholder='';">
                 </div>
 				<div class="fild-ico-txt lgn">
-					<i class="fa-solid fa-address-card inf-ico-cad lgn"></i>
-					<input class="fld-txt lgn" type="text" name="input" value="Login" onfocus="this.value='';">
+					<i class="fa-solid fa-address-card inf-ico-cad lgn" id="ico-lgn"></i>
+					<input class="fld-txt lgn" id="txt-lgn" type="text" name="input" placeholder="Login" onfocus="this.placeholder='';">
                 </div>
-				<div class="fild-ico-txt pwd">	
-					<i class="fa-solid fa-lock inf-ico-cad pwd"></i>
-					<input class="fld-txt pwd" type="text" name="input" value="Senha" onfocus="this.value=''; this.type='password';">
+				<div class="fild-ico-txt pwd">
+					<i class="fa-solid fa-lock inf-ico-cad pwd" id="ico-pwd"></i>
+					<input class="fld-txt pwd" id="txt-pwd" type="password" name="input" placeholder="Senha" onfocus="this.placeholder='';" autocomplete="off">
 				</div>
-			</div>
+			</form>
 				<div class="frm-btn acesso">
-					<input class="btn cdt" type="button" onclick="location.href='#';" value="Cadastrar">
-					<input class="btn ccl" type="button" onclick="location.href='index.html';" value="Cancelar">
+					<button class="btn cdt" type="button" onclick="validaCampo()">Cadastrar</button>
+					<button class="btn ccl" type="button" onclick="location.href='index.html';">Cancelar</button>
 				</div>
 		</div>
 	</div>
