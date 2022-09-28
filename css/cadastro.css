@@ -165,6 +165,13 @@ html, body{
 
 /*************************** SECTION ****************************/
 
+
+.frm-fields-cad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .frm-txt.cad{
     margin-left: 10%;
     letter-spacing: 4px;
@@ -181,10 +188,11 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+	width: 50%;
 }
 
 .fld-txt{
-    width: 40%;
+    width: 100%;
     margin: 1%;
     padding: 10px 20px;
     border-radius: 20px;
@@ -213,7 +221,7 @@ html, body{
     background-color: #317f54;
 }
 
-.btn:hover, .fld-txt:hover{
+.btn:hover{
     background-color: #ff9200;
     color: white;
     font-family: sans-serif;
@@ -222,31 +230,16 @@ html, body{
 
 .fld-txt:focus{
     background-color: #ffffff;
-    color: black;
+    color: #000000;
 }
 
-.inf-ico:hover{
+.fild-ico-txt:hover .inf-ico-cad{
     color: #ff9200;
+}
 
-}
-
-.fild-ico-txt.cad:hover .inf-ico-cad.usr{
-    color: #ff9200;
-}
-.fild-ico-txt.end:hover .inf-ico-cad.end{
-    color: #ff9200;
-}
-.fild-ico-txt.tel:hover .inf-ico-cad.tel{
-    color: #ff9200;
-}
-.fild-ico-txt.mail:hover .inf-ico-cad.mail{
-    color: #ff9200;
-}
-.fild-ico-txt.lgn:hover .inf-ico-cad.lgn{
-    color: #ff9200;
-}
-.fild-ico-txt.pwd:hover .inf-ico-cad.pwd{
-    color: #ff9200;
+.fild-ico-txt:hover .fld-txt{
+    background-color: #ff9200;
+    font-weight: bold;
 }
 
 
