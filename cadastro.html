@@ -64,31 +64,31 @@
 			<form class="frm-fields-cad cad" id="frm-cad">
 				<div class="fild-ico-txt cad">
 					<i class="fa-solid fa-user inf-ico-cad usr" id="ico-nm"></i>
-					<input class="fld-txt nm" id="txt-nm" type="text" name="input" placeholder="Nome Completo" onfocus="this.placeholder='';">
+					<input class="fld-txt nm" id="txt-nm" type="text" name="input" placeholder="Nome Completo" onfocus="this.placeholder='';" onchange="rtnCmp()">
 				</div>
 				<div class="fild-ico-txt end">
 					<i class="fa-solid fa-location-dot inf-ico-cad end" id="ico-end"></i>
-					<input class="fld-txt end" id="txt-end" type="text" name="input" placeholder="Endereço" onfocus="this.placeholder='';">
+					<input class="fld-txt end" id="txt-end" type="text" name="input" placeholder="Endereço" onfocus="this.placeholder='';" onchange="rtnCmp()">
                 </div>
 				<div class="fild-ico-txt tel">
 					<i class="fa-solid fa-phone inf-ico-cad tel" id="ico-tel"></i>
-					<input class="fld-txt tel" id="txt-tel" type="text" name="input" placeholder="Telefone" onfocus="this.placeholder='';">
+					<input class="fld-txt tel" id="txt-tel" type="text" name="input" placeholder="Telefone" onfocus="this.placeholder='';" onchange="rtnCmp()">
                 </div>
 				<div class="fild-ico-txt mail">
 					<i class="fa-solid fa-at inf-ico-cad mail" id="ico-mail"></i>
-					<input class="fld-txt mail" id="txt-mail" type="text" name="input" placeholder="E-mail" onfocus="this.placeholder='';">
+					<input class="fld-txt mail" id="txt-mail" type="text" name="input" placeholder="E-mail" onfocus="this.placeholder='';" onchange="rtnCmp()">
                 </div>
 				<div class="fild-ico-txt lgn">
 					<i class="fa-solid fa-address-card inf-ico-cad lgn" id="ico-lgn"></i>
-					<input class="fld-txt lgn" id="txt-lgn" type="text" name="input" placeholder="Login" onfocus="this.placeholder='';">
+					<input class="fld-txt lgn" id="txt-lgn" type="text" name="input" placeholder="Login" onfocus="this.placeholder='';" onchange="rtnCmp()">
                 </div>
 				<div class="fild-ico-txt pwd">
 					<i class="fa-solid fa-lock inf-ico-cad pwd" id="ico-pwd"></i>
-					<input class="fld-txt pwd" id="txt-pwd" type="password" name="input" placeholder="Senha" onfocus="this.placeholder='';" autocomplete="off">
+					<input class="fld-txt pwd" id="txt-pwd" type="password" name="input" placeholder="Senha" onfocus="this.placeholder='';" autocomplete="off" onchange="rtnCmp()">
 				</div>
 			</form>
 				<div class="frm-btn acesso">
-					<button class="btn cdt" type="button" onclick="validaCampo()">Cadastrar</button>
+					<button class="btn cdt" type="button" onclick="valCmp()">Cadastrar</button>
 					<button class="btn ccl" type="button" onclick="location.href='index.html';">Cancelar</button>
 				</div>
 		</div>
