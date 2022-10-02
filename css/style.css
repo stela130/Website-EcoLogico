@@ -40,7 +40,7 @@ html, body{
 .menu-list{
     justify-content: space-around;
     align-items: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 3.2px;
     display: flex;
     height: 16%;
 }
@@ -144,7 +144,7 @@ html, body{
 }
 
 .txt-l1{
-    letter-spacing: 0.6rem;
+    letter-spacing: 25px;
 }
 
 .txt-l2{
@@ -158,13 +158,18 @@ html, body{
 }
 
 .txt-l3{
-    letter-spacing: 0.6rem;
+    letter-spacing: 25px;
 }
 
 .txt-title{
     font-size: 60px;
     letter-spacing: 20px;
     text-align: center;
+}
+
+.sub-title{
+    margin-left: 32px;
+    font-size: 22px;
 }
 
 /*************************** SECTION ***************************/
@@ -230,7 +235,7 @@ html, body{
 .inf-title{
     font-size: 26px;
     text-transform: uppercase;
-    margin: 0.1rem;
+    margin: 1.6px;
 }
 
 .inf-txt{

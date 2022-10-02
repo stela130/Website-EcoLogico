@@ -1,19 +1,11 @@
-
 html, body{
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: sans-serif;
-    background-color: #e6ffd7;
 }
 
 /* LOGIN */
-
-.grp-lgn{
-    height: inherit;
-    position: absolute;
-    width: 100%;
-}
 
 .login{
     height: inherit;

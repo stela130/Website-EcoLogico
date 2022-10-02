@@ -44,7 +44,7 @@ html, body{
 .menu-list{
     justify-content: space-around;
     align-items: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 3.2px;
     display: flex;
     height: 30%;
 }
@@ -162,6 +162,11 @@ html, body{
     text-align: center;
 }
 
+.title-txt{
+    margin-left: 95px;
+    font-size: 30px;
+}
+
 
 /**************************** SECTION ****************************/
 
@@ -180,15 +185,16 @@ td {
 }
 
 tr:nth-child(odd) {
-  background: #3F9D61;
-  color: white;
+  background: #9DCC9B;
+  color: #000000;
 }
 
 tr:nth-child(even) {
-  background: #2A904F;
-  color:  white;
+  background: #6EB47D;
+  color:  #000000;
 }
-/**************************** FOOTER ****************************/
+
+/******************#3F9D61********** FOOTER *************#2A904F***************/
 
 .footer-banner{
     height: 30%;
@@ -225,7 +231,7 @@ tr:nth-child(even) {
 .inf-title{
     font-size: 26px;
     text-transform: uppercase;
-    margin: 0.1rem;
+    margin: 1.6px;
 }
 
 .inf-txt{

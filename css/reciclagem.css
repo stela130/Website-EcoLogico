@@ -44,7 +44,7 @@ html, body{
 .menu-list{
     justify-content: space-around;
     align-items: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 3.2px;
     display: flex;
     height: 30%;
 }
@@ -308,7 +308,7 @@ li{
 .inf-title{
     font-size: 26px;
     text-transform: uppercase;
-    margin: 0.1rem;
+    margin: 1.6px;
 }
 
 .inf-txt{
